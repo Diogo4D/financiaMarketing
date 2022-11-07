@@ -1,0 +1,49 @@
+:root {
+    --cor-principal: #02B780;
+    --cor-secundaria: #02B1BD;
+    --cor-hover: #249271;
+    --background-escuro: #EEEEEE;
+    --background-claro: #fff;
+    --cor-texto: #636363;
+}
+
+#contact2 {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+#contact2 .banner-2 {
+    width: 100%;
+    height: 100%;
+}
+
+#contact2 .conteiner-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    text-align: center;
+}
+#contact2 .conteiner-text .title {
+    font-size: 3rem;
+}
+
+#contact2 .conteiner-text .text {
+    color: var(--cor-texto);
+    max-width: 600px;
+}
+
+#contact2 .conteiner-text .btn {
+    width: 13rem;
+}
+
+#contact2 .conteiner-text .btn:hover {
+    background-color: var(--cor-hover);
+}

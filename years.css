@@ -1,0 +1,99 @@
+:root {
+    --cor-principal: #02B780;
+    --cor-secundaria: #02B1BD;
+    --cor-hover: #249271;
+    --background-escuro: #EEEEEE;
+    --background-claro: #fff;
+}
+
+#years {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background-escuro);
+}
+
+#years .conteiner {
+    max-width: 1300px;
+    min-height: calc(100vh - 200px);
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#years .conteiner .years-conteiner-text {
+    width: 45%;
+    min-width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 0 auto;
+}
+
+#years .conteiner .years-conteiner-text .years-title {
+    font-size: 2.5rem;
+}
+
+#years .conteiner .years-conteiner-text .years-text{
+    color: var(--cor-texto);
+}
+
+#years .conteiner .years-conteiner-text .list-conteiner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#years .conteiner .years-conteiner-text .list-conteiner .list {
+    list-style-type: none;
+}
+
+#years .conteiner .years-conteiner-text .list-conteiner .list .icon {
+    font-size: 1.4rem;
+    color: var(--cor-principal);
+}
+
+#years .conteiner .years-conteiner-img {
+    width: 50%;
+    min-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#years .conteiner  .years-conteiner-img .img {
+    width: 100%;
+}
+
+#years .conteiner  .years-conteiner-img .conteiner-card-text {
+    width: 450px;
+    padding: 50px;
+    border-radius: 5px;
+    font-style: italic;
+    transform: translate(-50px, -50px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-left: 6px solid var(--cor-principal);
+    background-color: var(--background-claro);
+    color: var(--cor-texto);
+}
+
+.marcas {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px;
+    border-top: 2px solid rgb(211, 211, 211);
+    list-style: none;
+}
+
+.marcas li img {
+    filter: invert(.5);
+}
+

@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    #conteiner_cards {
+        transform: translateY(0%);
+        padding: 20px;
+    }
+
+    .about-us {
+        padding: 0;
+        gap: 0;
+    }
+    .content-avaliation {
+        transform: translateY(0);
+    }
+
+    #years .conteiner .years-conteiner-img {
+        padding: 50px;
+    }
+
+    #years .conteiner .years-conteiner-img .conteiner-card-text {
+        width: 390px;
+    }
+
+    .marcas {
+        padding: 15px;
+    }
+
+    .contact1 .text-conteiner {
+        width: 70%;
+    }
+}

@@ -1,0 +1,125 @@
+/* about us */
+
+.conteiner-about-us {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+
+.about-us{
+    width: 100%;
+    max-width: 1300px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.content-avaliation {
+    position: relative;
+    width: 50%;
+    min-width: 300px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-75px);
+    margin: 0px auto;
+}
+
+.content-avaliation img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+}
+
+.about-us .content-avaliation .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .content-avaliation .info .info-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.about-us .content-avaliation .info .info-content ion-icon {
+    font-size: 2.4rem;
+    color: var(--cor-principal);
+}
+
+.info .info-content .conteiner-number {
+    text-align: start;
+    color: #585858;
+    
+}
+
+.conteiner-number .number {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000;
+}
+
+/* content-text */
+.content-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 0px auto 30px auto;
+}
+
+.content-text span {
+    color: var(--cor-principal);
+}
+
+.content-text h1 {
+    font-size: 2.8rem;
+}
+
+.content-text p, button {
+    padding: 0;
+    margin: 0;
+}
+
+.content-text p {
+    color: #585858;
+}
+
+.content-text button {
+    width: 13rem;
+    height: 50px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: var(--cor-principal);
+}
+
+.content-text button:hover {
+    background-color: var(--cor-hover);
+}
+
+@media(max-width: 880px) {
+    .about-us{
+        flex-direction: column;
+    }
+
+    .content-avaliation {
+        width: 70%;
+        min-width: 350px;
+    }
+    
+}

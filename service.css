@@ -1,0 +1,98 @@
+:root {
+    --cor-principal: #02B780;
+    --cor-secundaria: #02B1BD;
+    --cor-hover: #249271;
+    --background-escuro: #EEEEEE;
+    --background-claro: #fff;
+}
+
+#service {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.service-conteiner {
+    width: 80%;
+    max-width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.service-conteiner .card {
+    position: relative;
+    width: 32%;
+    min-width: 300px;
+    min-height: 25rem ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    gap: 20px;
+    list-style-type: none;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    border-bottom: 6px solid var(--cor-principal);
+}
+
+.service-conteiner .card .card-title {
+    font-size: 2rem;
+}
+
+/* card 1 */
+.service-conteiner .offer {
+    min-height: calc(48% - 6px);
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    text-align: start;
+    gap: 35px;
+    border: none;
+    box-shadow: none;
+}
+
+.service-conteiner .offer .title-secundari {
+    color: var(--cor-principal);
+}
+
+.service-conteiner .offer .title-primary {
+    font-size: 3rem;
+}
+
+.service-conteiner .offer .text {
+    letter-spacing: 1px;
+}
+
+.service-conteiner .offer .view-all {
+    min-width: 13rem;
+    min-height: 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--background-claro);
+    background-color: var(--cor-principal);
+}
+.service-conteiner .offer .view-all:hover {
+    background-color: var(--cor-hover);
+}
+/* card 1 */
+
+/* card 3 */
+.service-conteiner .report {
+    background-color: var(--cor-principal);
+    color: white;
+}
+
+.service-conteiner .report .icon, .service-conteiner .report .card-title, .service-conteiner .report .text{
+    color:  white;
+}
+
+/* card 3 */

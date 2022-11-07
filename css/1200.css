@@ -1,0 +1,18 @@
+@media (max-width: 1200px) {
+    #years .conteiner .years-conteiner-text {
+        margin: 50px auto;
+    }
+
+    #conteiner_cards .card {
+        height: 400px;
+        transform: translateY(0%);
+    }
+    #conteiner_cards .active {
+        height: 400px;
+    }
+
+    #conteiner_cards {
+        justify-content: space-around;
+    }
+
+}
